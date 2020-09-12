@@ -3,4 +3,5 @@ name: Publish
 on:
   workflow_dispatch:
   push:
-    branch
+    branches: [ master ]
+    paths-ignore:
