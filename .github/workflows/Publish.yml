@@ -1,4 +1,6 @@
 name: Publish
 
 on:
-  workflow_disp
+  workflow_dispatch:
+  push:
+    branch
