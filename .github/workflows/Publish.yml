@@ -10,4 +10,5 @@ on:
 
 jobs:
   publish:
-    na
+    name: Publish the app
+    runs-on:
