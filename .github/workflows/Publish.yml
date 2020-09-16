@@ -11,4 +11,6 @@ on:
 jobs:
   publish:
     name: Publish the app
-    runs-on:
+    runs-on: windows-latest
+    permissions:
+     
