@@ -13,4 +13,7 @@ jobs:
     name: Publish the app
     runs-on: windows-latest
     permissions:
-     
+      contents: write
+
+    steps:
+    - n
