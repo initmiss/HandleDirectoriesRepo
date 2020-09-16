@@ -16,4 +16,5 @@ jobs:
       contents: write
 
     steps:
-    - n
+    - name: Checkout source code
+    
