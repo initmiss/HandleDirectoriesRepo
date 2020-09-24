@@ -24,4 +24,5 @@ jobs:
       with:
         dotnet-version: 7.0.x
     
-    - nam
+    - name: Publish
+      shell: pwsh
