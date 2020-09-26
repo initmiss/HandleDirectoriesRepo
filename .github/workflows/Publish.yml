@@ -27,4 +27,5 @@ jobs:
     - name: Publish
       shell: pwsh
       run: |
-        Set-Location "$env:GITHUB_WORKSPA
+        Set-Location "$env:GITHUB_WORKSPACE"
+        dotnet publish -c 
