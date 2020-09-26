@@ -26,3 +26,5 @@ jobs:
     
     - name: Publish
       shell: pwsh
+      run: |
+        Set-Loc
