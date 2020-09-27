@@ -28,4 +28,4 @@ jobs:
       shell: pwsh
       run: |
         Set-Location "$env:GITHUB_WORKSPACE"
-        dotnet publish -c release -r win-x64 -p:Publish
+        dotnet publish -c release -r win-x64 -p:PublishDir="$env:GITHUB_WORKSPACE\Release\wi
