@@ -29,4 +29,4 @@ jobs:
       run: |
         Set-Location "$env:GITHUB_WORKSPACE"
         dotnet publish -c release -r win-x64 -p:PublishDir="$env:GITHUB_WORKSPACE\Release\win-x64" --sc --nologo
-        Compress-Archive -Path "$env:GITHUB_WORKSPACE\Release\win-x64" 
+        Compress-Archive -Path "$env:GITHUB_WORKSPACE\Release\win-x64" -DestinationPath "IG-win
