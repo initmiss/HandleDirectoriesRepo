@@ -34,4 +34,5 @@ jobs:
     - name: Create Release
       uses: "marvinpinto/action-automatic-releases@latest"
       with:
-        repo_token: "${{ 
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+      
