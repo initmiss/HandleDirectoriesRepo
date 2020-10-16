@@ -12,3 +12,27 @@
   "QQAddress": "127.0.0.1",
   "QQPort": 5700,
   "ToQQID": "",
+
+  "EnablePushPlus": false,
+  "PushPlusToken": "",
+
+  "EnableDingTalk": false,
+  "DingTalkBotToken": "",
+
+  "EnablePushDeer": false,
+  "PushDeerToken": "",
+
+  "EnableDiscord": false,
+  "DiscordWebhookURL": "",
+
+  "EnableEmail": false,
+  "SMTPServer": "",
+  "SMTPPort": 465,
+  "FromEmailAddress": "",
+  "ToEmailAddress": "",
+  "AuthAccount": "",
+  "AuthPassword": "",
+
+  "EnableHeadless": true,
+  "TimeOutMilliSecond": 30000
+}
