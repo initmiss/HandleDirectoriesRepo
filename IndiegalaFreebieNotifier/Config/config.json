@@ -1,0 +1,14 @@
+
+﻿{
+  "EnableTelegram": true,
+  "TelegramToken": "",
+  "TelegramChatID": "",
+
+  "EnableBark": false,
+  "BarkAddress": "https://api.day.app",
+  "BarkToken": "",
+
+  "EnableQQ": false,
+  "QQAddress": "127.0.0.1",
+  "QQPort": 5700,
+  "ToQQID": "",
