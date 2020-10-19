@@ -27,3 +27,12 @@
 		public string PushPlusToken { get; set; }
 
 		public bool EnableDingTalk { get; set; }
+		public string DingTalkBotToken { get; set; }
+
+		public bool EnablePushDeer { get; set; }
+		public string PushDeerToken { get; set; }
+
+		public bool EnableDiscord { get; set; }
+		public string DiscordWebhookURL { get; set; }
+	}
+}
