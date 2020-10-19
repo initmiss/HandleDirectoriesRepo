@@ -1,1 +1,3 @@
-﻿using Newto
+﻿using Newtonsoft.Json;
+
+namespace IndiegalaFreebi
