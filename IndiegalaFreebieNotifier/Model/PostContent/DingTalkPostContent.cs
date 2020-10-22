@@ -1,3 +1,5 @@
 ﻿using Newtonsoft.Json;
 
-namespace IndiegalaFreebi
+namespace IndiegalaFreebieNotifier.Model.PostContent
+{
+	pu
