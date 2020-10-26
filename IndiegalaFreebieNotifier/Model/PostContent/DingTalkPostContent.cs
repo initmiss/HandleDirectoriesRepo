@@ -2,4 +2,4 @@
 
 namespace IndiegalaFreebieNotifier.Model.PostContent
 {
-	pu
+	public class Content {
