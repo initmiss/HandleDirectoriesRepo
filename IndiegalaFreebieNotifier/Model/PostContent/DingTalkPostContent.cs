@@ -3,3 +3,4 @@
 namespace IndiegalaFreebieNotifier.Model.PostContent
 {
 	public class Content {
+		[JsonProperty("content
