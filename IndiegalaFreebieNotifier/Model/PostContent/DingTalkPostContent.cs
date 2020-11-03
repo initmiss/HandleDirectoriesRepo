@@ -6,4 +6,5 @@ namespace IndiegalaFreebieNotifier.Model.PostContent
 		[JsonProperty("content")]
 		public string Content_ { get; set; }
 	}
-	public class DingTal
+	public class DingTalkPostContent {
+		[JsonProperty("msgty
