@@ -10,4 +10,6 @@ namespace IndiegalaFreebieNotifier.Model.PostContent
 		[JsonProperty("msgtype")]
 		public string MessageType { get; set; } = "text";
 		[JsonProperty("text")]
-		public Content Text { get; set; } 
+		public Content Text { get; set; } = new Content();
+	}
+}
