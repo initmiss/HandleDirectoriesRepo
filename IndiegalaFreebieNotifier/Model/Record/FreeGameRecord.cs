@@ -1,3 +1,4 @@
 ﻿using System.Text;
 
-namespace Indiega
+namespace IndiegalaFreebieNotifier.Model {
+	
