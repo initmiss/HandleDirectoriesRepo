@@ -4,4 +4,6 @@ namespace IndiegalaFreebieNotifier.Model {
 	public class FreeGameRecord {
 		public string Url { get; set; }
 
-		public string Title {
+		public string Title { get; set; }
+
+		public string To
