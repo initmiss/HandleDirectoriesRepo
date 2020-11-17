@@ -7,4 +7,4 @@ namespace IndiegalaFreebieNotifier.Model {
 		public string Title { get; set; }
 
 		public string ToTelegramMessage() {
-			re
+			return new StringBuilder(
