@@ -10,4 +10,5 @@ namespace IndiegalaFreebieNotifier.Model {
 			return new StringBuilder().AppendFormat(NotifyFormatStrings.telegramPushFormat, Title, Url).ToString();
 		}
 
-		public string ToBarkMessage()
+		public string ToBarkMessage() {
+			return new StringBuilder().App
