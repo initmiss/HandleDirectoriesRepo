@@ -11,4 +11,7 @@ namespace IndiegalaFreebieNotifier.Model {
 		}
 
 		public string ToBarkMessage() {
-			return new StringBuilder().AppendFormat(NotifyFormatStrings.barkPushFormat, Title, Url).ToS
+			return new StringBuilder().AppendFormat(NotifyFormatStrings.barkPushFormat, Title, Url).ToString();
+		}
+
+		p
