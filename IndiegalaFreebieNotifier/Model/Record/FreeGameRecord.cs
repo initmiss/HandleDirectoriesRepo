@@ -15,4 +15,4 @@ namespace IndiegalaFreebieNotifier.Model {
 		}
 
 		public string ToEmailMessage() {
-			return new StringBu
+			return new StringBuilder().AppendFormat(Notif
