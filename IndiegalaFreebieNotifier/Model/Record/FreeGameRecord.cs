@@ -19,3 +19,4 @@ namespace IndiegalaFreebieNotifier.Model {
 		}
 
 		public string ToQQMessage() {
+			return new StringB
