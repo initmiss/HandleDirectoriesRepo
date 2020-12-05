@@ -23,4 +23,4 @@ namespace IndiegalaFreebieNotifier.Model {
 		}
 
 		public string ToPushPlusMessage() {
-			return new StringBuilder().AppendFormat(Notify
+			return new StringBuilder().AppendFormat(NotifyFormatStrings.pushPlusPushHtmlFormat, Ti
