@@ -34,4 +34,5 @@ namespace IndiegalaFreebieNotifier.Model {
 			return new StringBuilder().AppendFormat(NotifyFormatStrings.pushDeerPushFormat, Title, Url).ToString();
 		}
 
-		public s
+		public string ToDiscordMessage() {
+	
