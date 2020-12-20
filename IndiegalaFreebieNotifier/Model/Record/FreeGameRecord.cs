@@ -35,4 +35,4 @@ namespace IndiegalaFreebieNotifier.Model {
 		}
 
 		public string ToDiscordMessage() {
-			return new StringBuil
+			return new StringBuilder().AppendFormat(NotifyFor
