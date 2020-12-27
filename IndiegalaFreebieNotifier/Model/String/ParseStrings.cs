@@ -1,1 +1,2 @@
-﻿namespace IndiegalaFree
+﻿namespace IndiegalaFreebieNotifier.Model {
+	
