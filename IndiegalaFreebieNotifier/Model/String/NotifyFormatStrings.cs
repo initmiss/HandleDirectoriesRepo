@@ -36,3 +36,17 @@
 
 		public static readonly string qqUrlFormat = "http://{0}:{1}/send_private_msg?user_id={2}&message=";
 		public static readonly string qqMessageFormat = "Indigala 信息\n\n{0}";
+
+		public static readonly string pushPlusTitleFormat = "{0} new free game(s) - IndiegalaFreebieNotifier";
+		public static readonly string pushPlusBodyFormat = "<br>{0}";
+		public static readonly string pushPlusUrlFormat = "http://www.pushplus.plus/send?token={0}&template=html&title={1}&content=";
+
+		public static readonly string dingTalkUrlFormat = "https://oapi.dingtalk.com/robot/send?access_token={0}";
+
+		public static readonly string pushDeerUrlFormat = "https://api2.pushdeer.com/message/push?pushkey={0}&&text={1}";
+		#endregion
+
+		public static readonly string projectLink = "\n\nFrom https://github.com/azhuge233/IndiegalaFreebieNotifier";
+		public static readonly string projectLinkHTML = "<br><br>From <a href=\"https://github.com/azhuge233/IndiegalaFreebieNotifier\">IndiegalaFreebieNotifier</a>";
+	}
+}
