@@ -2,4 +2,5 @@
 using Microsoft.Extensions.Logging;
 using IndiegalaFreebieNotifier.Model;
 
-namespace IndiegalaFreebieNotifier.Module 
+namespace IndiegalaFreebieNotifier.Module {
+	class ConfigValidator :
