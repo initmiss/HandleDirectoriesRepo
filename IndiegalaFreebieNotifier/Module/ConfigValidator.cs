@@ -7,4 +7,7 @@ namespace IndiegalaFreebieNotifier.Module {
 		private readonly ILogger<ConfigValidator> _logger;
 
 		#region debug strings
-		private readonly string debugCheckValid = "Check config file validati
+		private readonly string debugCheckValid = "Check config file validation";
+		#endregion
+
+		public ConfigValid
