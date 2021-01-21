@@ -4,4 +4,7 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Module {
 	class ConfigValidator : IDisposable {
-		private readonly ILogger<ConfigValidator> _l
+		private readonly ILogger<ConfigValidator> _logger;
+
+		#region debug strings
+		private r
