@@ -10,4 +10,4 @@ namespace IndiegalaFreebieNotifier.Module {
 		private readonly string debugCheckValid = "Check config file validation";
 		#endregion
 
-		public ConfigValid
+		public ConfigValidator(ILogger<ConfigValidato
