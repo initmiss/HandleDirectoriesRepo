@@ -11,4 +11,7 @@ namespace IndiegalaFreebieNotifier.Module {
 		#endregion
 
 		public ConfigValidator(ILogger<ConfigValidator> logger) {
-			_logger = l
+			_logger = logger;
+		}
+
+		public vo
