@@ -14,4 +14,4 @@ namespace IndiegalaFreebieNotifier.Module {
 			_logger = logger;
 		}
 
-		public vo
+		public void CheckValid(Config config)
