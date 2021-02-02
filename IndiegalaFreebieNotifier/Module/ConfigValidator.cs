@@ -16,4 +16,6 @@ namespace IndiegalaFreebieNotifier.Module {
 
 		public void CheckValid(Config config) {
 			try {
-				_logger
+				_logger.LogDebug(debugCheckValid);
+
+				/
