@@ -18,4 +18,5 @@ namespace IndiegalaFreebieNotifier.Module {
 			try {
 				_logger.LogDebug(debugCheckValid);
 
-				/
+				//Telegram
+				if (conf
