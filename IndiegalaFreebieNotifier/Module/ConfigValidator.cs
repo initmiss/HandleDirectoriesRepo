@@ -20,4 +20,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				//Telegram
 				if (config.EnableTelegram) {
-			
+					if (string.IsNullOrEmpty(config.TelegramTok
