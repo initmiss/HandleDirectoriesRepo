@@ -20,4 +20,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				//Telegram
 				if (config.EnableTelegram) {
-					if (string.IsNullOrEmpty(config.TelegramTok
+					if (string.IsNullOrEmpty(config.TelegramToken))
+						throw new Excep
