@@ -21,4 +21,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				//Telegram
 				if (config.EnableTelegram) {
 					if (string.IsNullOrEmpty(config.TelegramToken))
-						throw new Exception(message: "No
+						throw new Exception(message: "No Telegram Token provided!");
