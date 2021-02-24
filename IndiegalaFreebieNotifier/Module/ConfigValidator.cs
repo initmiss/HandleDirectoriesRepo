@@ -27,4 +27,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				}
 
 				//Bark
-				if (config
+				if (config.EnableBark) {
+					if (stri
