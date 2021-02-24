@@ -28,4 +28,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				//Bark
 				if (config.EnableBark) {
-					if (string.IsNullOrEmpty(config.B
+					if (string.IsNullOrEmpty(config.BarkAddress))
+						throw new Except
