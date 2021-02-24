@@ -28,4 +28,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				//Bark
 				if (config.EnableBark) {
-					if (stri
+					if (string.IsNullOrEmpty(config.B
