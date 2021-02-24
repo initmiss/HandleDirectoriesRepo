@@ -25,3 +25,6 @@ namespace IndiegalaFreebieNotifier.Module {
 					if (string.IsNullOrEmpty(config.TelegramChatID))
 						throw new Exception(message: "No Telegram ChatID provided!");
 				}
+
+				//Bark
+				if (config
