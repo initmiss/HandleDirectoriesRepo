@@ -29,4 +29,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				//Bark
 				if (config.EnableBark) {
 					if (string.IsNullOrEmpty(config.BarkAddress))
-						throw new Exception(message: "No Bark Address prov
+						throw new Exception(message: "No Bark Address provided!");
+					if (strin
