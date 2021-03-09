@@ -36,4 +36,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				//Email
 				if (config.EnableEmail) {
-	
+					if (string.IsNullOrEmpty(conf
