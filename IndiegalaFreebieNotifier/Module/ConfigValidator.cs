@@ -37,4 +37,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				//Email
 				if (config.EnableEmail) {
 					if (string.IsNullOrEmpty(config.FromEmailAddress))
-						throw new Exception(message: "No f
+						throw new Exception(message: "No from email address provi
