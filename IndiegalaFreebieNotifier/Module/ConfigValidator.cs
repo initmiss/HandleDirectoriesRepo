@@ -41,4 +41,4 @@ namespace IndiegalaFreebieNotifier.Module {
 					if (string.IsNullOrEmpty(config.ToEmailAddress))
 						throw new Exception(message: "No to email address provided!");
 					if (string.IsNullOrEmpty(config.SMTPServer))
-						throw new Exception(
+						throw new Exception(message: "No SMTP server prov
