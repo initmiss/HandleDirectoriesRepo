@@ -45,4 +45,4 @@ namespace IndiegalaFreebieNotifier.Module {
 					if (string.IsNullOrEmpty(config.AuthAccount))
 						throw new Exception(message: "No email auth account provided!");
 					if (string.IsNullOrEmpty(config.AuthPassword))
-						throw new Exc
+						throw new Exception(message: "No email auth 
