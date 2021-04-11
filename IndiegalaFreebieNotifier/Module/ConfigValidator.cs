@@ -48,4 +48,5 @@ namespace IndiegalaFreebieNotifier.Module {
 						throw new Exception(message: "No email auth password provided!");
 				}
 
-				
+				//QQ
+				if (config.EnableQQ
