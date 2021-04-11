@@ -49,4 +49,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				}
 
 				//QQ
-				if (config.EnableQQ
+				if (config.EnableQQ) {
+					if (string.IsNullOrE
