@@ -53,4 +53,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					if (string.IsNullOrEmpty(config.QQAddress))
 						throw new Exception(message: "No QQ address provided!");
 					if (string.IsNullOrEmpty(config.QQPort))
-						throw new Exception(message:
+						throw new Exception(message: "No QQ port provided!");
+				
