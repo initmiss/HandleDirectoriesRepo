@@ -55,4 +55,7 @@ namespace IndiegalaFreebieNotifier.Module {
 					if (string.IsNullOrEmpty(config.QQPort))
 						throw new Exception(message: "No QQ port provided!");
 					if (string.IsNullOrEmpty(config.ToQQID))
-						throw new Exception(message: "No QQ ID provi
+						throw new Exception(message: "No QQ ID provided!");
+				}
+
+				//PushPlus
