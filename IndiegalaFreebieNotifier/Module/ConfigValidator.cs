@@ -59,4 +59,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				}
 
 				//PushPlus
-				if (config.EnablePushPl
+				if (config.EnablePushPlus) {
+					if (string.IsNullOrEmp
