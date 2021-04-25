@@ -59,3 +59,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				}
 
 				//PushPlus
+				if (config.EnablePushPl
