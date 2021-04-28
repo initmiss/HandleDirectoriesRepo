@@ -60,4 +60,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				//PushPlus
 				if (config.EnablePushPlus) {
-					if (string.IsNullOrEmp
+					if (string.IsNullOrEmpty(config.PushPlusToken))
+						t
