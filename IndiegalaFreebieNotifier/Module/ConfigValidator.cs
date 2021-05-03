@@ -61,4 +61,7 @@ namespace IndiegalaFreebieNotifier.Module {
 				//PushPlus
 				if (config.EnablePushPlus) {
 					if (string.IsNullOrEmpty(config.PushPlusToken))
-						throw new Exception(message: "No PushPlus token provided
+						throw new Exception(message: "No PushPlus token provided!");
+				}
+
+				//DingTal
