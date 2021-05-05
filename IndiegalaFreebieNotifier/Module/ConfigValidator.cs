@@ -65,4 +65,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				}
 
 				//DingTalk
-				if (config.EnableDingTa
+				if (config.EnableDingTalk) {
+					if (string.IsNullOrEmpty(co
