@@ -64,4 +64,5 @@ namespace IndiegalaFreebieNotifier.Module {
 						throw new Exception(message: "No PushPlus token provided!");
 				}
 
-				//DingTal
+				//DingTalk
+				if (config.EnableDingTa
