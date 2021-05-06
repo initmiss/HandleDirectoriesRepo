@@ -67,4 +67,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				//DingTalk
 				if (config.EnableDingTalk) {
 					if (string.IsNullOrEmpty(config.DingTalkBotToken))
-	
+						throw new Excepti
