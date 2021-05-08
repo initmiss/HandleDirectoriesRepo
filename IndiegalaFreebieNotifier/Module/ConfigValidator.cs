@@ -71,4 +71,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				}
 
 				//PushDeer
-				if (config.En
+				if (config.EnablePushDeer) {
+					if (string.IsNu
