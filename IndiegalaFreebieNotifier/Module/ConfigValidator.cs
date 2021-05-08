@@ -70,4 +70,5 @@ namespace IndiegalaFreebieNotifier.Module {
 						throw new Exception(message: "No DingTalk token provided!");
 				}
 
-		
+				//PushDeer
+				if (config.En
