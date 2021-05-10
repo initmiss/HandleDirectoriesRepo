@@ -73,4 +73,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				//PushDeer
 				if (config.EnablePushDeer) {
 					if (string.IsNullOrEmpty(config.PushDeerToken))
-						thro
+						throw new Exception(messag
