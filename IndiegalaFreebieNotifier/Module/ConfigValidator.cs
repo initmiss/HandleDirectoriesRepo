@@ -77,4 +77,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				}
 
 				//Discord
+				if (config.EnableDiscord) {
 		
