@@ -73,4 +73,8 @@ namespace IndiegalaFreebieNotifier.Module {
 				//PushDeer
 				if (config.EnablePushDeer) {
 					if (string.IsNullOrEmpty(config.PushDeerToken))
-						throw new Exception(message: "No PushDeer token prov
+						throw new Exception(message: "No PushDeer token provided!");
+				}
+
+				//Discord
+		
