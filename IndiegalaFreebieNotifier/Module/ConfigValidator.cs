@@ -78,4 +78,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				//Discord
 				if (config.EnableDiscord) {
-		
+					if (string.IsNullOrEmpty(confi
