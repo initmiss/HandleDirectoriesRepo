@@ -79,4 +79,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				//Discord
 				if (config.EnableDiscord) {
 					if (string.IsNullOrEmpty(config.DiscordWebhookURL))
-						throw new Exception(message: "No Disco
+						throw new Exception(message: "No Discord Webhook provided!");
+	
