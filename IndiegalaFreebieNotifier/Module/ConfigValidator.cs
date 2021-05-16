@@ -82,4 +82,6 @@ namespace IndiegalaFreebieNotifier.Module {
 						throw new Exception(message: "No Discord Webhook provided!");
 				}
 
-				_logger.LogDebug($"Done: {debugCheckValid}
+				_logger.LogDebug($"Done: {debugCheckValid}");
+			} catch (Exception) {
+				_log
