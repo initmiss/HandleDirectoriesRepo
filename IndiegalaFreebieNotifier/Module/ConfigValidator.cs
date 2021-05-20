@@ -84,4 +84,6 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				_logger.LogDebug($"Done: {debugCheckValid}");
 			} catch (Exception) {
-				_logger.LogError($"Error: {debugChec
+				_logger.LogError($"Error: {debugCheckValid}");
+				throw;
+			} final
