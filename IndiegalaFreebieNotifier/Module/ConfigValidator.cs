@@ -86,4 +86,7 @@ namespace IndiegalaFreebieNotifier.Module {
 			} catch (Exception) {
 				_logger.LogError($"Error: {debugCheckValid}");
 				throw;
-			} final
+			} finally {
+				Dispose();
+			}
+		}
