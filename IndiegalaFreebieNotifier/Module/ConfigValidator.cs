@@ -95,3 +95,4 @@ namespace IndiegalaFreebieNotifier.Module {
 			GC.SuppressFinalize(this);
 		}
 	}
+}
