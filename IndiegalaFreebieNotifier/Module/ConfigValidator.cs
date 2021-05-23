@@ -91,4 +91,7 @@ namespace IndiegalaFreebieNotifier.Module {
 			}
 		}
 
-		public void Dispose()
+		public void Dispose() {
+			GC.SuppressFinalize(this);
+		}
+	}
