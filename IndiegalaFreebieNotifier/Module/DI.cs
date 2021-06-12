@@ -4,4 +4,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NLog.Extensions.Logging;
-using IndiegalaFreebieNotifier.No
+using IndiegalaFreebieNotifier.Notifier;
+
+namespace Indiega
