@@ -6,4 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using NLog.Extensions.Logging;
 using IndiegalaFreebieNotifier.Notifier;
 
-namespace IndiegalaFreebieNotifier.Mod
+namespace IndiegalaFreebieNotifier.Module {
+    public static class DI {
+  
