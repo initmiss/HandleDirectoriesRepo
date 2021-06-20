@@ -8,4 +8,4 @@ using IndiegalaFreebieNotifier.Notifier;
 
 namespace IndiegalaFreebieNotifier.Module {
     public static class DI {
-        private static readonly IConfigurationRo
+        private static readonly IConfigurationRoot logConfig = new ConfigurationBuil
