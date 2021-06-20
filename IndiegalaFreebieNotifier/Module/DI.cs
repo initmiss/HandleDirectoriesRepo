@@ -9,4 +9,4 @@ using IndiegalaFreebieNotifier.Notifier;
 namespace IndiegalaFreebieNotifier.Module {
     public static class DI {
         private static readonly IConfigurationRoot logConfig = new ConfigurationBuilder()
-           .Set
+           .SetBasePath(Directory.GetCurrentDi
