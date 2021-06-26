@@ -13,4 +13,4 @@ namespace IndiegalaFreebieNotifier.Module {
            .Build();
         public static IServiceProvider BuildDiAll() {
             return new ServiceCollection()
- 
+               .AddTransient<Jso
