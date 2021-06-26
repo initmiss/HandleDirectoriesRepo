@@ -12,4 +12,5 @@ namespace IndiegalaFreebieNotifier.Module {
            .SetBasePath(Directory.GetCurrentDirectory())
            .Build();
         public static IServiceProvider BuildDiAll() {
-          
+            return new ServiceCollection()
+ 
