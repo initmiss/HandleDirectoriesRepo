@@ -11,4 +11,5 @@ namespace IndiegalaFreebieNotifier.Module {
         private static readonly IConfigurationRoot logConfig = new ConfigurationBuilder()
            .SetBasePath(Directory.GetCurrentDirectory())
            .Build();
-        public static IS
+        public static IServiceProvider BuildDiAll() {
+          
