@@ -14,4 +14,5 @@ namespace IndiegalaFreebieNotifier.Module {
         public static IServiceProvider BuildDiAll() {
             return new ServiceCollection()
                .AddTransient<JsonOP>()
-               .AddTransient
+               .AddTransient<ConfigValidator>()
+             
