@@ -15,4 +15,4 @@ namespace IndiegalaFreebieNotifier.Module {
             return new ServiceCollection()
                .AddTransient<JsonOP>()
                .AddTransient<ConfigValidator>()
-             
+               .AddTransient<Scrape
