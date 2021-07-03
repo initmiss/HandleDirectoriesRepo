@@ -16,4 +16,5 @@ namespace IndiegalaFreebieNotifier.Module {
                .AddTransient<JsonOP>()
                .AddTransient<ConfigValidator>()
                .AddTransient<Scraper>()
-               .AddTransient<
+               .AddTransient<Parser>()
+               .A
