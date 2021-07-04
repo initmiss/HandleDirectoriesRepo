@@ -18,4 +18,5 @@ namespace IndiegalaFreebieNotifier.Module {
                .AddTransient<Scraper>()
                .AddTransient<Parser>()
                .AddTransient<NotifyOP>()
-               .AddTransien
+               .AddTransient<Barker>()
+               .AddTra
