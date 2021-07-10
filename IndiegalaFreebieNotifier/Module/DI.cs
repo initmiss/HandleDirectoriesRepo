@@ -22,4 +22,4 @@ namespace IndiegalaFreebieNotifier.Module {
                .AddTransient<TgBot>()
                .AddTransient<Email>()
                .AddTransient<QQPusher>()
-      
+               .AddTransient<Push
