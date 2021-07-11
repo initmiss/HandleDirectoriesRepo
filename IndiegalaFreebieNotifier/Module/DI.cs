@@ -23,4 +23,5 @@ namespace IndiegalaFreebieNotifier.Module {
                .AddTransient<Email>()
                .AddTransient<QQPusher>()
                .AddTransient<PushPlus>()
-               .Ad
+               .AddTransient<DingTalk>()
+      
