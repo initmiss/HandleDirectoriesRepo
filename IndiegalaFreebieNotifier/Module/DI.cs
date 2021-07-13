@@ -24,4 +24,5 @@ namespace IndiegalaFreebieNotifier.Module {
                .AddTransient<QQPusher>()
                .AddTransient<PushPlus>()
                .AddTransient<DingTalk>()
-               .AddTransient<Push
+               .AddTransient<PushDeer>()
+               .AddTran
