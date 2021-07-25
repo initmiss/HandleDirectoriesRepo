@@ -28,4 +28,5 @@ namespace IndiegalaFreebieNotifier.Module {
                .AddTransient<Discord>()
                .AddLogging(loggingBuilder => {
                    // configure Logging with NLog
-                   loggingBuilder
+                   loggingBuilder.ClearProviders();
+            
