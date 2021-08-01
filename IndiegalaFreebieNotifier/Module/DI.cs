@@ -30,4 +30,6 @@ namespace IndiegalaFreebieNotifier.Module {
                    // configure Logging with NLog
                    loggingBuilder.ClearProviders();
                    loggingBuilder.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
-                   loggingBuilder.AddNLog(logCo
+                   loggingBuilder.AddNLog(logConfig);
+               })
+        
