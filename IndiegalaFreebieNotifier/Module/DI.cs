@@ -32,4 +32,4 @@ namespace IndiegalaFreebieNotifier.Module {
                    loggingBuilder.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
                    loggingBuilder.AddNLog(logConfig);
                })
-        
+               .BuildServiceProvid
