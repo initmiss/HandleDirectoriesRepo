@@ -35,4 +35,4 @@ namespace IndiegalaFreebieNotifier.Module {
                .BuildServiceProvider();
         }
 
-        public
+        public static IServiceProvider Bu
