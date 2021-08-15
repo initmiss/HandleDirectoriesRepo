@@ -35,4 +35,5 @@ namespace IndiegalaFreebieNotifier.Module {
                .BuildServiceProvider();
         }
 
-        public static IServiceProvider Bu
+        public static IServiceProvider BuildDiNotifierOnly() {
+   
