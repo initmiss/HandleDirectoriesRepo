@@ -37,4 +37,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
         public static IServiceProvider BuildDiNotifierOnly() {
             return new ServiceCollection()
-               .AddTransient<T
+               .AddTransient<TgBot>()
+               .AddTrans
