@@ -39,4 +39,5 @@ namespace IndiegalaFreebieNotifier.Module {
             return new ServiceCollection()
                .AddTransient<TgBot>()
                .AddTransient<Barker>()
-               .
+               .AddTransient<Email>()
+          
