@@ -45,4 +45,5 @@ namespace IndiegalaFreebieNotifier.Module {
                .AddTransient<DingTalk>()
                .AddTransient<PushDeer>()
 			   .AddTransient<Discord>()
-			   .AddLogging(loggi
+			   .AddLogging(loggingBuilder => {
+              
