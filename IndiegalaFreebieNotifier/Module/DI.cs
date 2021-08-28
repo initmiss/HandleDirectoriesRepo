@@ -46,4 +46,5 @@ namespace IndiegalaFreebieNotifier.Module {
                .AddTransient<PushDeer>()
 			   .AddTransient<Discord>()
 			   .AddLogging(loggingBuilder => {
-              
+                   // configure Logging with NLog
+    
