@@ -3,4 +3,6 @@ using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using Microsoft.Extensions.Logging;
-using IndiegalaFr
+using IndiegalaFreebieNotifier.Model;
+
+namespace Indiegal
