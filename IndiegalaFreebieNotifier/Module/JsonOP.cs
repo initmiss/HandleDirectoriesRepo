@@ -6,4 +6,5 @@ using Microsoft.Extensions.Logging;
 using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Module {
-	class JsonOP : 
+	class JsonOP : IDisposable {
+		private re
