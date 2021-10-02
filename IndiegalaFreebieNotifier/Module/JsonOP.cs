@@ -8,4 +8,4 @@ using IndiegalaFreebieNotifier.Model;
 namespace IndiegalaFreebieNotifier.Module {
 	class JsonOP : IDisposable {
 		private readonly ILogger<JsonOP> _logger;
-		private readonly string confi
+		private readonly string configPath = $"{AppDomain.CurrentDomai
