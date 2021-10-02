@@ -7,4 +7,4 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Module {
 	class JsonOP : IDisposable {
-		private re
+		private readonly ILogger<JsonOP> _logger
