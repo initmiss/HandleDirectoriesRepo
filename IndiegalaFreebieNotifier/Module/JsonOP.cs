@@ -9,4 +9,4 @@ namespace IndiegalaFreebieNotifier.Module {
 	class JsonOP : IDisposable {
 		private readonly ILogger<JsonOP> _logger;
 		private readonly string configPath = $"{AppDomain.CurrentDomain.BaseDirectory}Config{Path.DirectorySeparatorChar}config.json";
-		private readonly string recordPath = $"{AppDomain.CurrentDomain.BaseDirectory}Record
+		private readonly string recordPath = $"{AppDomain.CurrentDomain.BaseDirectory}Record{Path.DirectorySeparatorChar}record
