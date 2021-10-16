@@ -12,4 +12,7 @@ namespace IndiegalaFreebieNotifier.Module {
 		private readonly string recordPath = $"{AppDomain.CurrentDomain.BaseDirectory}Record{Path.DirectorySeparatorChar}record.json";
 
 		public JsonOP(ILogger<JsonOP> logger) {
-			_logger =
+			_logger = logger;
+		}
+
+		public void Write
