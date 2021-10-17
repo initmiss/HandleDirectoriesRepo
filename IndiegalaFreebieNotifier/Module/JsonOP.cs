@@ -15,4 +15,5 @@ namespace IndiegalaFreebieNotifier.Module {
 			_logger = logger;
 		}
 
-		public void Write
+		public void WriteData(List<FreeGameRecord> data) {
+		
