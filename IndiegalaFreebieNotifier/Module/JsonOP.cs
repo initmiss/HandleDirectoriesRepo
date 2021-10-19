@@ -16,4 +16,5 @@ namespace IndiegalaFreebieNotifier.Module {
 		}
 
 		public void WriteData(List<FreeGameRecord> data) {
-		
+			try {
+				if (data.Count > 0) {
