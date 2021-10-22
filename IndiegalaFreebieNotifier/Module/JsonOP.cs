@@ -18,4 +18,5 @@ namespace IndiegalaFreebieNotifier.Module {
 		public void WriteData(List<FreeGameRecord> data) {
 			try {
 				if (data.Count > 0) {
-					_logger.LogDebug("Writin
+					_logger.LogDebug("Writing records!");
+					string jso
