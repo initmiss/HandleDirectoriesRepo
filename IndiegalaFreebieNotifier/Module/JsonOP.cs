@@ -22,4 +22,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					string json = JsonConvert.SerializeObject(data, Formatting.Indented);
 					File.WriteAllText(recordPath, string.Empty);
 					File.WriteAllText(recordPath, json);
-					_logger.L
+					_logger.LogDebug("Done");
+				} else _logger.L
