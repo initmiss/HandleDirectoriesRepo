@@ -23,4 +23,4 @@ namespace IndiegalaFreebieNotifier.Module {
 					File.WriteAllText(recordPath, string.Empty);
 					File.WriteAllText(recordPath, json);
 					_logger.LogDebug("Done");
-				} else _logger.L
+				} else _logger.LogDebug("No records detected, qu
