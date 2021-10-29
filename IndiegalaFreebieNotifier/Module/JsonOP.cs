@@ -25,4 +25,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					_logger.LogDebug("Done");
 				} else _logger.LogDebug("No records detected, quit writing records");
 			} catch (Exception) {
-				_logger.LogError("Writin
+				_logger.LogError("Writing data failed.");
+				throw
