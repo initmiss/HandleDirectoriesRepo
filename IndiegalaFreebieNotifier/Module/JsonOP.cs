@@ -29,3 +29,7 @@ namespace IndiegalaFreebieNotifier.Module {
 				throw;
 			} finally {
 				Dispose();
+			}
+		}
+
+		public List<FreeGa
