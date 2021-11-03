@@ -32,4 +32,5 @@ namespace IndiegalaFreebieNotifier.Module {
 			}
 		}
 
-		public List<FreeGa
+		public List<FreeGameRecord> LoadData() {
+			
