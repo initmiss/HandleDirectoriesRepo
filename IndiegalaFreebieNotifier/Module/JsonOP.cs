@@ -33,4 +33,5 @@ namespace IndiegalaFreebieNotifier.Module {
 		}
 
 		public List<FreeGameRecord> LoadData() {
-			
+			try {
+				_logger.LogD
