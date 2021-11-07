@@ -34,4 +34,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 		public List<FreeGameRecord> LoadData() {
 			try {
-				_logger.LogDebug("Loading previous rec
+				_logger.LogDebug("Loading previous records");
+				var content = JsonCo
