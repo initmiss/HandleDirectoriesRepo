@@ -34,4 +34,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 		public List<FreeGameRecord> LoadData() {
 			try {
-				_logger.LogD
+				_logger.LogDebug("Loading previous rec
