@@ -38,3 +38,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				var content = JsonConvert.DeserializeObject<List<FreeGameRecord>>(File.ReadAllText(recordPath));
 				_logger.LogDebug("Done");
 				return content;
+			} catch (Exception) {
+	
