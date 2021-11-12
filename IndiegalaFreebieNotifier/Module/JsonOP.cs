@@ -39,4 +39,9 @@ namespace IndiegalaFreebieNotifier.Module {
 				_logger.LogDebug("Done");
 				return content;
 			} catch (Exception) {
-				_logger.LogError("Loading previous records failed
+				_logger.LogError("Loading previous records failed.");
+				throw;
+			}
+		}
+
+		public C
