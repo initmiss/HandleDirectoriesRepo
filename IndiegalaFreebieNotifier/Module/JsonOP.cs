@@ -44,4 +44,5 @@ namespace IndiegalaFreebieNotifier.Module {
 			}
 		}
 
-		public C
+		public Config LoadConfig() {
+			try {
