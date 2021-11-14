@@ -46,3 +46,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 		public Config LoadConfig() {
 			try {
+				_logger.LogDebug("Loading con
