@@ -48,4 +48,4 @@ namespace IndiegalaFreebieNotifier.Module {
 			try {
 				_logger.LogDebug("Loading config");
 				var content = JsonConvert.DeserializeObject<Config>(File.ReadAllText(configPath));
-				_
+				_logger.LogDebug("Done");
