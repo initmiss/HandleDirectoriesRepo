@@ -50,4 +50,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				var content = JsonConvert.DeserializeObject<Config>(File.ReadAllText(configPath));
 				_logger.LogDebug("Done");
 				return content;
-			} catch (Excepti
+			} catch (Exception) {
+				_logger.LogE
