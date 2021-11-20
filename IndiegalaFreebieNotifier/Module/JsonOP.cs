@@ -51,4 +51,8 @@ namespace IndiegalaFreebieNotifier.Module {
 				_logger.LogDebug("Done");
 				return content;
 			} catch (Exception) {
-				_logger.LogError("Loading config fai
+				_logger.LogError("Loading config failed.");
+				throw;
+			}
+		}
+
