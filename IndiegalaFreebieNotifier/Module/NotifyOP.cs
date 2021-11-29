@@ -3,4 +3,5 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
-using Indiega
+using IndiegalaFreebieNotifier.Notifier;
+using Ind
