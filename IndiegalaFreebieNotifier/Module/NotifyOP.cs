@@ -4,4 +4,4 @@ using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using IndiegalaFreebieNotifier.Notifier;
-using Ind
+using IndiegalaFreebieNotifier
