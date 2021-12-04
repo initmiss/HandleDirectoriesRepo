@@ -6,4 +6,5 @@ using Microsoft.Extensions.DependencyInjection;
 using IndiegalaFreebieNotifier.Notifier;
 using IndiegalaFreebieNotifier.Model;
 
-namespace IndiegalaFreebieNoti
+namespace IndiegalaFreebieNotifier.Module {
+	class Noti
