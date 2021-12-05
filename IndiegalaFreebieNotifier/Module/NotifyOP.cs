@@ -7,4 +7,5 @@ using IndiegalaFreebieNotifier.Notifier;
 using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Module {
-	class Noti
+	class NotifyOP : IDisposable {
+		private re
