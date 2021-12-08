@@ -8,4 +8,5 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Module {
 	class NotifyOP : IDisposable {
-		private readonly ILogger<NotifyOP> _log
+		private readonly ILogger<NotifyOP> _logger;
+		private readonly IServi
