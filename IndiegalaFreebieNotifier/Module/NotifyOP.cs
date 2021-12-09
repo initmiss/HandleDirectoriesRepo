@@ -9,4 +9,6 @@ using IndiegalaFreebieNotifier.Model;
 namespace IndiegalaFreebieNotifier.Module {
 	class NotifyOP : IDisposable {
 		private readonly ILogger<NotifyOP> _logger;
-		private readonly IServiceProvider services = DI.BuildD
+		private readonly IServiceProvider services = DI.BuildDiNotifierOnly();
+
+		#region debug stri
