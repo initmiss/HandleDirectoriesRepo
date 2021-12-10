@@ -12,4 +12,5 @@ namespace IndiegalaFreebieNotifier.Module {
 		private readonly IServiceProvider services = DI.BuildDiNotifierOnly();
 
 		#region debug strings
-		private readonly string de
+		private readonly string debugNotify = "Notify";
+	
