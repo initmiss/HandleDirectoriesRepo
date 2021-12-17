@@ -14,4 +14,4 @@ namespace IndiegalaFreebieNotifier.Module {
 		#region debug strings
 		private readonly string debugNotify = "Notify";
 		private readonly string debugEnabledFormat = "Sending notifications to {0}";
-		private
+		private readonly string debugDisab
