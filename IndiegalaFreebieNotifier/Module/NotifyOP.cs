@@ -15,4 +15,7 @@ namespace IndiegalaFreebieNotifier.Module {
 		private readonly string debugNotify = "Notify";
 		private readonly string debugEnabledFormat = "Sending notifications to {0}";
 		private readonly string debugDisabledFormat = "{0} notify is disabled, skipping";
-		private readonly string debugNoNewNotifications = "No new notificati
+		private readonly string debugNoNewNotifications = "No new notifications! Skipping";
+		#endregion
+
+		pu
