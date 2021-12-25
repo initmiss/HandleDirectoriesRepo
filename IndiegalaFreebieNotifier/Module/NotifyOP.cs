@@ -18,4 +18,4 @@ namespace IndiegalaFreebieNotifier.Module {
 		private readonly string debugNoNewNotifications = "No new notifications! Skipping";
 		#endregion
 
-		pu
+		public NotifyOP(ILogger<NotifyOP
