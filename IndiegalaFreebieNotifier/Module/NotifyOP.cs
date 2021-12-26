@@ -22,4 +22,4 @@ namespace IndiegalaFreebieNotifier.Module {
 			_logger = logger;
 		}
 
-		public async Ta
+		public async Task Notify(NotifyConfig co
