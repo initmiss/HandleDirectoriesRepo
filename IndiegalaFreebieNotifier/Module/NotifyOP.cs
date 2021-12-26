@@ -19,4 +19,7 @@ namespace IndiegalaFreebieNotifier.Module {
 		#endregion
 
 		public NotifyOP(ILogger<NotifyOP> logger) {
-			_logger = lo
+			_logger = logger;
+		}
+
+		public async Ta
