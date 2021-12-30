@@ -25,4 +25,8 @@ namespace IndiegalaFreebieNotifier.Module {
 		public async Task Notify(NotifyConfig config, List<FreeGameRecord> pushList) {
 			if (pushList.Count == 0) {
 				_logger.LogInformation(debugNoNewNotifications);
-				
+				return;
+			}
+
+			try {
+				_logger.
