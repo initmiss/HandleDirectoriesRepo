@@ -29,4 +29,7 @@ namespace IndiegalaFreebieNotifier.Module {
 			}
 
 			try {
-				_logger.LogDebug(debugNotify)
+				_logger.LogDebug(debugNotify);
+
+				// Telegram notifications
+				
