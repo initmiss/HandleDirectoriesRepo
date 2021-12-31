@@ -29,4 +29,4 @@ namespace IndiegalaFreebieNotifier.Module {
 			}
 
 			try {
-				_logger.
+				_logger.LogDebug(debugNotify)
