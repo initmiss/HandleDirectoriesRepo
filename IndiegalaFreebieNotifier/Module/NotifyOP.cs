@@ -33,4 +33,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				// Telegram notifications
 				if (config.EnableTelegram) {
-					_log
+					_logger.LogInformation(debugEn
