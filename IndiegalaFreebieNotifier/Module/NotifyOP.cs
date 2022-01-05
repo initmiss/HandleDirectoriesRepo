@@ -35,4 +35,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				if (config.EnableTelegram) {
 					_logger.LogInformation(debugEnabledFormat, "Telegram");
 					await services.GetRequiredService<TgBot>().SendMessage(config, pushList);
-				} else _l
+				} else _logger.LogInformation(debugDisabledFormat, 
