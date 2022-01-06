@@ -37,4 +37,6 @@ namespace IndiegalaFreebieNotifier.Module {
 					await services.GetRequiredService<TgBot>().SendMessage(config, pushList);
 				} else _logger.LogInformation(debugDisabledFormat, "Telegram");
 
-				// Bark notific
+				// Bark notifications
+				if (config.EnableBark) {
+					_l
