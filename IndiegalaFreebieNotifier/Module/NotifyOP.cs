@@ -39,4 +39,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				// Bark notifications
 				if (config.EnableBark) {
-					_l
+					_logger.LogInformation(debugEnab
