@@ -40,4 +40,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				// Bark notifications
 				if (config.EnableBark) {
 					_logger.LogInformation(debugEnabledFormat, "Bark");
-					await services.GetRequiredS
+					await services.GetRequiredService<Barker>().SendMessage(config,
