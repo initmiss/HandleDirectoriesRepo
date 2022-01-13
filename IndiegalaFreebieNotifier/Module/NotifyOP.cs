@@ -43,4 +43,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					await services.GetRequiredService<Barker>().SendMessage(config, pushList);
 				} else _logger.LogInformation(debugDisabledFormat, "Bark");
 
-			
+				//QQ notifications
+	
