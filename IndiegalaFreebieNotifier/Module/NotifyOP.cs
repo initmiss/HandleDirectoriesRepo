@@ -45,4 +45,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				//QQ notifications
 				if (config.EnableQQ) {
-	
+					_logger.LogInformation(debu
