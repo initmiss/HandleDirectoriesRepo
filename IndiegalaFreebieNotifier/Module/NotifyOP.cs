@@ -44,4 +44,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				} else _logger.LogInformation(debugDisabledFormat, "Bark");
 
 				//QQ notifications
+				if (config.EnableQQ) {
 	
