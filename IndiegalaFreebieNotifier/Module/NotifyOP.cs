@@ -46,4 +46,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				//QQ notifications
 				if (config.EnableQQ) {
 					_logger.LogInformation(debugEnabledFormat, "QQ");
-					await services.GetRequiredService<QQPusher>().SendMessage(config, p
+					await services.GetRequiredService<QQPusher>().SendMessage(config, pushList);
+				} else _logge
