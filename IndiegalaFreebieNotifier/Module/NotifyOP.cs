@@ -50,4 +50,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				} else _logger.LogInformation(debugDisabledFormat, "QQ");
 
 				// PushPlus notifications
-				if (config.Ena
+				if (config.EnablePushPlus) {
+					_logger.LogIn
