@@ -49,4 +49,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					await services.GetRequiredService<QQPusher>().SendMessage(config, pushList);
 				} else _logger.LogInformation(debugDisabledFormat, "QQ");
 
-				// PushPlus not
+				// PushPlus notifications
+				if (config.Ena
