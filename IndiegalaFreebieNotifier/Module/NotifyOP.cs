@@ -51,4 +51,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				// PushPlus notifications
 				if (config.EnablePushPlus) {
-					_logger.LogIn
+					_logger.LogInformation(debugEnabledFormat, "Pus
