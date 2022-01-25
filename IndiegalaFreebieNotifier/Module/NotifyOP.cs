@@ -52,4 +52,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				// PushPlus notifications
 				if (config.EnablePushPlus) {
 					_logger.LogInformation(debugEnabledFormat, "PushPlus");
-					await services
+					await services.GetRequiredService<Pus
