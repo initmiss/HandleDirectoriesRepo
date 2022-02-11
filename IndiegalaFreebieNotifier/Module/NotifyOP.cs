@@ -55,4 +55,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					await services.GetRequiredService<PushPlus>().SendMessage(config, pushList);
 				} else _logger.LogInformation(debugDisabledFormat, "PushPlus");
 
-				// DingTalk notificati
+				// DingTalk notifications
+				if (config.EnableD
