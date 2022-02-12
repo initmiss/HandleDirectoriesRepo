@@ -57,4 +57,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				// DingTalk notifications
 				if (config.EnableDingTalk) {
-					_
+					_logger.LogInformation(debugEnabledFor
