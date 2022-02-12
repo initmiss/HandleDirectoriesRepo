@@ -56,4 +56,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				} else _logger.LogInformation(debugDisabledFormat, "PushPlus");
 
 				// DingTalk notifications
-				if (config.EnableD
+				if (config.EnableDingTalk) {
+					_
