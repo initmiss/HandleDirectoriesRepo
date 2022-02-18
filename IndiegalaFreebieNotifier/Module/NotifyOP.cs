@@ -59,4 +59,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				if (config.EnableDingTalk) {
 					_logger.LogInformation(debugEnabledFormat, "DingTalk");
 					await services.GetRequiredService<DingTalk>().SendMessage(config, pushList);
-				} else _logg
+				} else _logger.LogInformation(debugDi
