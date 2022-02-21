@@ -61,4 +61,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					await services.GetRequiredService<DingTalk>().SendMessage(config, pushList);
 				} else _logger.LogInformation(debugDisabledFormat, "DingTalk");
 
-				// PushDeer notificati
+				// PushDeer notifications
+				if (config.EnablePushD
