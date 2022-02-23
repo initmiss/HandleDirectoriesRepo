@@ -63,4 +63,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				// PushDeer notifications
 				if (config.EnablePushDeer) {
-					_logger.LogInformation
+					_logger.LogInformation(debugEnabledForm
