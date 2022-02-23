@@ -63,4 +63,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				// PushDeer notifications
 				if (config.EnablePushDeer) {
-					_logger.LogInformation(debugEnabledForm
+					_logger.LogInformation(debugEnabledFormat, "PushDeer");
+					await services.GetR
