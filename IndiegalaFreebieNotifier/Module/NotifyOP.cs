@@ -65,4 +65,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				if (config.EnablePushDeer) {
 					_logger.LogInformation(debugEnabledFormat, "PushDeer");
 					await services.GetRequiredService<PushDeer>().SendMessage(config, pushList);
-				} else _logger.LogInformation(de
+				} else _logger.LogInformation(debugDisabledFormat, "PushDeer");
