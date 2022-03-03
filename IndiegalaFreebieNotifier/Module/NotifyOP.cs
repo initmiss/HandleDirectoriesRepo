@@ -67,4 +67,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					await services.GetRequiredService<PushDeer>().SendMessage(config, pushList);
 				} else _logger.LogInformation(debugDisabledFormat, "PushDeer");
 
-				// Discord notifi
+				// Discord notifications
+				if (config.Enabl
