@@ -68,4 +68,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				} else _logger.LogInformation(debugDisabledFormat, "PushDeer");
 
 				// Discord notifications
-				if (config.Enabl
+				if (config.EnableDiscord) {
+					_logger.LogInform
