@@ -69,4 +69,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				// Discord notifications
 				if (config.EnableDiscord) {
-					_logger.LogInform
+					_logger.LogInformation(debugEnabledFormat, "
