@@ -71,4 +71,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				if (config.EnableDiscord) {
 					_logger.LogInformation(debugEnabledFormat, "Discord");
 					await services.GetRequiredService<Discord>().SendMessage(config, pushList);
-				} else _logge
+				} else _logger.LogInformation(debugDisabledF
