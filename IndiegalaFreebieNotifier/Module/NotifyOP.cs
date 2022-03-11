@@ -71,4 +71,6 @@ namespace IndiegalaFreebieNotifier.Module {
 				if (config.EnableDiscord) {
 					_logger.LogInformation(debugEnabledFormat, "Discord");
 					await services.GetRequiredService<Discord>().SendMessage(config, pushList);
-				} else _logger.LogInformation(debugDisabledF
+				} else _logger.LogInformation(debugDisabledFormat, "Discord");
+
+				// Emai
