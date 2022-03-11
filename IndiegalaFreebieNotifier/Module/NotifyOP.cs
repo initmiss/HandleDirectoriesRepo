@@ -73,4 +73,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					await services.GetRequiredService<Discord>().SendMessage(config, pushList);
 				} else _logger.LogInformation(debugDisabledFormat, "Discord");
 
-				// Emai
+				// Email notifications
+				if (config.
