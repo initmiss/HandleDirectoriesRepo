@@ -74,4 +74,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				} else _logger.LogInformation(debugDisabledFormat, "Discord");
 
 				// Email notifications
-				if (config.
+				if (config.EnableEmail) {
+					_logger.LogInform
