@@ -75,4 +75,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				// Email notifications
 				if (config.EnableEmail) {
-					_logger.LogInform
+					_logger.LogInformation(debugEnabledFormat, "Email");
+	
