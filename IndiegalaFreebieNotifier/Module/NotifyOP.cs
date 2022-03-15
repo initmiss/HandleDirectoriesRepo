@@ -76,4 +76,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				// Email notifications
 				if (config.EnableEmail) {
 					_logger.LogInformation(debugEnabledFormat, "Email");
-					await services.GetRe
+					await services.GetRequiredService<Email>().SendMessage(conf
