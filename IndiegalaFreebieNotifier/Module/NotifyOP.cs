@@ -79,4 +79,6 @@ namespace IndiegalaFreebieNotifier.Module {
 					await services.GetRequiredService<Email>().SendMessage(config, pushList);
 				} else _logger.LogInformation(debugDisabledFormat, "Email");
 
-				_logger.LogDebug($"Done: {debugNotify}")
+				_logger.LogDebug($"Done: {debugNotify}");
+			} catch (Exception) {
+			
