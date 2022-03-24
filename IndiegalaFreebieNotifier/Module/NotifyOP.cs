@@ -88,4 +88,5 @@ namespace IndiegalaFreebieNotifier.Module {
 			}
 		}
 
-		public
+		public void Dispose() {
+			GC.Suppre
