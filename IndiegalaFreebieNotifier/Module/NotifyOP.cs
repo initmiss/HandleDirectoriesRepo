@@ -84,4 +84,8 @@ namespace IndiegalaFreebieNotifier.Module {
 				_logger.LogError($"Error: {debugNotify}");
 				throw;
 			} finally {
-				Dispo
+				Dispose();
+			}
+		}
+
+		public
