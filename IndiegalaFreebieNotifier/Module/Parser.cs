@@ -3,4 +3,6 @@ using System.Linq;
 using System.Collections.Generic;
 using HtmlAgilityPack;
 using Microsoft.Extensions.Logging;
-using IndiegalaFreebieNotifier
+using IndiegalaFreebieNotifier.Model;
+
+namespace IndiegalaFreeb
