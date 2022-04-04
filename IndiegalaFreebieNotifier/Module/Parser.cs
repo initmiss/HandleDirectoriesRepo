@@ -5,4 +5,5 @@ using HtmlAgilityPack;
 using Microsoft.Extensions.Logging;
 using IndiegalaFreebieNotifier.Model;
 
-namespace IndiegalaFreeb
+namespace IndiegalaFreebieNotifier.Module {
+	class Parser :
