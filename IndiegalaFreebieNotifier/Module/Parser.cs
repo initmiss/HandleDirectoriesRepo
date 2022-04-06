@@ -7,4 +7,6 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Module {
 	class Parser : IDisposable {
-		private readonly ILogger<Parser> _logger
+		private readonly ILogger<Parser> _logger;
+
+		public Parser(ILogger<Parser> logge
