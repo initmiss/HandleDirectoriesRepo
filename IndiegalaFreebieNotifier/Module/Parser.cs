@@ -9,4 +9,5 @@ namespace IndiegalaFreebieNotifier.Module {
 	class Parser : IDisposable {
 		private readonly ILogger<Parser> _logger;
 
-		public Parser(ILogger<Parser> logge
+		public Parser(ILogger<Parser> logger) {
+			_logger = logge
