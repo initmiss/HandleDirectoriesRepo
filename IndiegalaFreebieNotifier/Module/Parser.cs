@@ -13,4 +13,4 @@ namespace IndiegalaFreebieNotifier.Module {
 			_logger = logger;
 		}
 
-		public ParseResult
+		public ParseResult Parse(string source, Li
