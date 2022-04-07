@@ -13,4 +13,5 @@ namespace IndiegalaFreebieNotifier.Module {
 			_logger = logger;
 		}
 
-		public ParseResult Parse(string source, Li
+		public ParseResult Parse(string source, List<FreeGameRecord> records) {
+	
