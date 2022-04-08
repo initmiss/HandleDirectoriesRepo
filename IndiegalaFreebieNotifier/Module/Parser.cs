@@ -15,4 +15,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 		public ParseResult Parse(string source, List<FreeGameRecord> records) {
 			try {
-				_logger.LogDebug("
+				_logger.LogDebug("Start parsing");
+				v
