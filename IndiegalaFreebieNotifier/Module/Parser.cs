@@ -18,4 +18,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				_logger.LogDebug("Start parsing");
 				var parseResult = new ParseResult();
 
-				var htmlDoc = new Html
+				var htmlDoc = new HtmlDocument();
+				htmlDoc.LoadHtml(s
