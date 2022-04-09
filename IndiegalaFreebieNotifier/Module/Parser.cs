@@ -21,4 +21,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				var htmlDoc = new HtmlDocument();
 				htmlDoc.LoadHtml(source);
 
-				if (htmlDoc.DocumentNode.SelectNodes(ParseStrings.divXp
+				if (htmlDoc.DocumentNode.SelectNodes(ParseStrings.divXpath) != null) {
+					var
