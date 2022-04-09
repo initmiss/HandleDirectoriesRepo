@@ -19,4 +19,6 @@ namespace IndiegalaFreebieNotifier.Module {
 				var parseResult = new ParseResult();
 
 				var htmlDoc = new HtmlDocument();
-				htmlDoc.LoadHtml(s
+				htmlDoc.LoadHtml(source);
+
+				if (htmlDoc.Document
