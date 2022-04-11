@@ -22,4 +22,4 @@ namespace IndiegalaFreebieNotifier.Module {
 				htmlDoc.LoadHtml(source);
 
 				if (htmlDoc.DocumentNode.SelectNodes(ParseStrings.divXpath) != null) {
-					var
+					var freebies = htmlDoc.Docume
