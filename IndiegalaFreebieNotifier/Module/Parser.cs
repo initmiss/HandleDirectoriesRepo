@@ -24,4 +24,5 @@ namespace IndiegalaFreebieNotifier.Module {
 				if (htmlDoc.DocumentNode.SelectNodes(ParseStrings.divXpath) != null) {
 					var freebies = htmlDoc.DocumentNode.SelectNodes(ParseStrings.divXpath).ToList();
 
-					foreach (var ea
+					foreach (var each in freebies) {
+						// 
