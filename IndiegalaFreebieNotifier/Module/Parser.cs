@@ -26,4 +26,4 @@ namespace IndiegalaFreebieNotifier.Module {
 
 					foreach (var each in freebies) {
 						// get article titles and links
-						var t
+						var title = each.SelectSin
