@@ -26,4 +26,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 					foreach (var each in freebies) {
 						// get article titles and links
-						var title = each.SelectSingleNode(ParseStrings.titleX
+						var title = each.SelectSingleNode(ParseStrings.titleXpath).InnerText;
+						var lin
