@@ -29,4 +29,4 @@ namespace IndiegalaFreebieNotifier.Module {
 						var title = each.SelectSingleNode(ParseStrings.titleXpath).InnerText;
 						var link = each.SelectSingleNode(ParseStrings.linkXpath).Attributes["href"].Value;
 
-	
+						_logger.LogInformation("Found ne
