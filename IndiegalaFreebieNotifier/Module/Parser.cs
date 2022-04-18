@@ -31,4 +31,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 						_logger.LogInformation("Found new info: {0}", title);
 
-						// save titl
+						// save titles and links to List
+						var
