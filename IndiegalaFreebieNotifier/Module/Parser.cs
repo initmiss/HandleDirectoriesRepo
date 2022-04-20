@@ -32,4 +32,4 @@ namespace IndiegalaFreebieNotifier.Module {
 						_logger.LogInformation("Found new info: {0}", title);
 
 						// save titles and links to List
-						var
+						var newFreeGame = new FreeGameRecord
