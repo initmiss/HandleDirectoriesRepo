@@ -33,4 +33,7 @@ namespace IndiegalaFreebieNotifier.Module {
 
 						// save titles and links to List
 						var newFreeGame = new FreeGameRecord { Title = title, Url = link };
-						parseResult.Records.Add(newFreeG
+						parseResult.Records.Add(newFreeGame);
+
+						// push list
+						if 
