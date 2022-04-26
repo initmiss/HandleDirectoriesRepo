@@ -36,4 +36,5 @@ namespace IndiegalaFreebieNotifier.Module {
 						parseResult.Records.Add(newFreeGame);
 
 						// push list
-						if (!records.Exists(x => x.Title == newFreeGame.Title && x.Url == ne
+						if (!records.Exists(x => x.Title == newFreeGame.Title && x.Url == newFreeGame.Url)) {
+						
