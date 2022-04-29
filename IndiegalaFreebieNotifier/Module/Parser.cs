@@ -41,4 +41,6 @@ namespace IndiegalaFreebieNotifier.Module {
 							parseResult.PushList.Add(newFreeGame);
 						} else _logger.LogInformation("{0} is found in previous records, stop adding it to push list", title);
 					}
-				} else _logger.LogInformation("No freebies cu
+				} else _logger.LogInformation("No freebies currently.");
+
+				_logger.LogDebug("Don
