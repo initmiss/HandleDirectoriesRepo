@@ -43,4 +43,5 @@ namespace IndiegalaFreebieNotifier.Module {
 					}
 				} else _logger.LogInformation("No freebies currently.");
 
-				_logger.LogDebug("Don
+				_logger.LogDebug("Done");
+				return parseResult
