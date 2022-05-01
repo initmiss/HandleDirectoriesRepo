@@ -45,4 +45,5 @@ namespace IndiegalaFreebieNotifier.Module {
 
 				_logger.LogDebug("Done");
 				return parseResult;
-			} catch (Excepti
+			} catch (Exception) {
+				_logger.LogError
