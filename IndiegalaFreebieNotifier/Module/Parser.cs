@@ -48,4 +48,6 @@ namespace IndiegalaFreebieNotifier.Module {
 			} catch (Exception) {
 				_logger.LogError("Parsing Error");
 				throw;
-		
+			} finally {
+				Dispose();
+			}
