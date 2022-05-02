@@ -54,3 +54,4 @@ namespace IndiegalaFreebieNotifier.Module {
 		}
 
 		public void Dispose() {
+			GC.SuppressFinalize(this)
