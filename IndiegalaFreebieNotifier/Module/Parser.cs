@@ -51,3 +51,6 @@ namespace IndiegalaFreebieNotifier.Module {
 			} finally {
 				Dispose();
 			}
+		}
+
+		public void Dispose() {
