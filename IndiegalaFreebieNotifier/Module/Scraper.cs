@@ -19,3 +19,33 @@ namespace IndiegalaFreebieNotifier.Module {
 		}
 
 		public async Task<string> GetHtmlSource(Config config) {
+			try {
+				_logger.LogDebug("Getting page source");
+				var webGet = new HtmlDocument();
+
+				var playwright = await Playwright.CreateAsync();
+				await using var browser = await playwright.Webkit.LaunchAsync(new() { Headless = config.EnableHeadless });
+
+				var page = await browser.NewPageAsync();
+				page.SetDefaultTimeout(config.TimeOutMilliSecond);
+				page.SetDefaultNavigationTimeout(config.TimeOutMilliSecond);
+				await page.RouteAsync("**/*", async route => {
+					var blockList = new List<string> { "stylesheet", "image", "font" };
+					if (blockList.Contains(route.Request.ResourceType)) await route.AbortAsync();
+					else await route.ContinueAsync();
+				});
+
+				await page.GotoAsync(url);
+				await page.WaitForLoadStateAsync();
+				var source = await page.InnerHTMLAsync("*");
+				await page.CloseAsync();
+
+				_logger.LogDebug("Done");
+				return source;
+			} catch (Exception) {
+				_logger.LogError("Scraping Error");
+				throw;
+			} finally {
+				Dispose();
+			}
+		}
