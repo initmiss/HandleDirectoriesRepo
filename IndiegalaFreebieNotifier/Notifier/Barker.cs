@@ -31,3 +31,25 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					await webGet.LoadFromWebAsync(
 						new StringBuilder()
 							.Append(url)
+							.Append(NotifyFormatStrings.barkUrlTitle)
+							.Append(HttpUtility.UrlEncode(record.ToBarkMessage()))
+							.Append(HttpUtility.UrlEncode(NotifyFormatStrings.projectLink))
+							.Append(new StringBuilder().AppendFormat(NotifyFormatStrings.barkUrlArgs, record.Url, record.Url))
+							.ToString()
+					);
+				}
+
+				_logger.LogDebug($"Done: {debugSendMessage}");
+			} catch (Exception) {
+				_logger.LogDebug($"Error: {debugSendMessage}");
+				throw;
+			} finally {
+				Dispose();
+			}
+		}
+
+		public void Dispose() {
+			GC.SuppressFinalize(this);
+		}
+	}
+}
