@@ -1,1 +1,1 @@
-﻿using Indiega
+﻿using IndiegalaFreebieNotifier.
