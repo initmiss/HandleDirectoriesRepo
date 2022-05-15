@@ -1,2 +1,3 @@
 ﻿using IndiegalaFreebieNotifier.Model;
-using IndiegalaFreebieNotifier.Models.Post
+using IndiegalaFreebieNotifier.Models.PostContent;
+using Microsoft.Extensio
