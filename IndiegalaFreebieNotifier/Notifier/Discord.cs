@@ -1,1 +1,2 @@
-﻿using IndiegalaFreebieNotifier.
+﻿using IndiegalaFreebieNotifier.Model;
+using IndiegalaFree
