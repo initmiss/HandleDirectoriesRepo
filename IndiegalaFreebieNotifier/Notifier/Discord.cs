@@ -1,4 +1,5 @@
 ﻿using IndiegalaFreebieNotifier.Model;
 using IndiegalaFreebieNotifier.Models.PostContent;
 using Microsoft.Extensions.Logging;
-using Newtonsof
+using Newtonsoft.Json;
+using System;
