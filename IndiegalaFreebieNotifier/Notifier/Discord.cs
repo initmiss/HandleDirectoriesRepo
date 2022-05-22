@@ -9,4 +9,5 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace IndiegalaFreebieNotifier.Notifier {
-	public class Dis
+	public class Discord : INotifiable {
+		pr
