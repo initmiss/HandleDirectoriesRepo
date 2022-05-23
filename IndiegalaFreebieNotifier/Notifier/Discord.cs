@@ -10,4 +10,7 @@ using System.Threading.Tasks;
 
 namespace IndiegalaFreebieNotifier.Notifier {
 	public class Discord : INotifiable {
-		private readonly ILogger<Discord> _logg
+		private readonly ILogger<Discord> _logger;
+
+		#region debug strings
+		privat
