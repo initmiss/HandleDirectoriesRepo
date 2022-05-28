@@ -16,4 +16,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		private readonly string debugSendMessage = "Send notification to Discord";
 		#endregion
 
-		public Discord(ILogger<Discord> logger
+		public Discord(ILogger<Discord> logger) {
+			_logger = logg
