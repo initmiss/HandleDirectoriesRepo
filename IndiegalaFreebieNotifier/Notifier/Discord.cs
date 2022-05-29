@@ -17,4 +17,7 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		#endregion
 
 		public Discord(ILogger<Discord> logger) {
-			_logger = logg
+			_logger = logger;
+		}
+
+		public as
