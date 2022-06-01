@@ -20,4 +20,6 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			_logger = logger;
 		}
 
-		public async Task SendMessage(NotifyConfig config, List<FreeGameRecord> records) 
+		public async Task SendMessage(NotifyConfig config, List<FreeGameRecord> records) {
+			try {
+				_logger.L
