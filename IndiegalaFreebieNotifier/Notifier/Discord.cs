@@ -24,4 +24,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			try {
 				_logger.LogDebug(debugSendMessage);
 
-				var url = config.Disco
+				var url = config.DiscordWebhookURL;
+				var con
