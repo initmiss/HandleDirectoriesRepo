@@ -24,4 +24,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			try {
 				_logger.LogDebug(debugSendMessage);
 
-				var
+				var url = config.Disco
