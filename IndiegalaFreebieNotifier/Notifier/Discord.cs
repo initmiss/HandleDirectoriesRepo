@@ -25,4 +25,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				_logger.LogDebug(debugSendMessage);
 
 				var url = config.DiscordWebhookURL;
-				var content = new DiscordPostContent
+				var content = new DiscordPostContent() {
+					Content = records.Count > 1 ? 
