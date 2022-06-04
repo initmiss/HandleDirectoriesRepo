@@ -25,4 +25,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				_logger.LogDebug(debugSendMessage);
 
 				var url = config.DiscordWebhookURL;
-				var con
+				var content = new DiscordPostContent
