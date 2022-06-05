@@ -26,4 +26,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				var url = config.DiscordWebhookURL;
 				var content = new DiscordPostContent() {
-					Content = records.Count > 1 ? "New Free Games - Indiega
+					Content = records.Count > 1 ? "New Free Games - Indiegala" : "New Free Game - Indi
