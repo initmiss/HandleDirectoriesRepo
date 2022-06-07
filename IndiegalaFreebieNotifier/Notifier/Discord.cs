@@ -29,4 +29,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					Content = records.Count > 1 ? "New Free Games - Indiegala" : "New Free Game - Indiegala"
 				};
 
-				foreach (var reco
+				foreach (var record in records) {
+			
