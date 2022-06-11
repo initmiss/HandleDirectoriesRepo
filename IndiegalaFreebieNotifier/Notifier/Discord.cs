@@ -31,3 +31,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				foreach (var record in records) {
 					content.Embeds.Add(
+						new Embed() {
+							Tit
