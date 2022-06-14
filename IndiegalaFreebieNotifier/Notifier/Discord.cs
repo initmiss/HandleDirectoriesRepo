@@ -33,4 +33,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					content.Embeds.Add(
 						new Embed() {
 							Title = record.Title,
-				
+							Url = record.Url,
+							D
