@@ -34,4 +34,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 						new Embed() {
 							Title = record.Title,
 							Url = record.Url,
-							D
+							Description = record.ToDiscordMe
