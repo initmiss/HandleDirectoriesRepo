@@ -35,4 +35,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 							Title = record.Title,
 							Url = record.Url,
 							Description = record.ToDiscordMessage(),
-							Footer = new Footer() { Text = Not
+							Footer = new Footer() { Text = NotifyFormatStrings.project
