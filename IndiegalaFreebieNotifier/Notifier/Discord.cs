@@ -40,4 +40,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					);
 				}
 
-				var data = new StringContent(JsonConvert.SerializeObject
+				var data = new StringContent(JsonConvert.SerializeObject(content), Encoding.UTF8, "applic
