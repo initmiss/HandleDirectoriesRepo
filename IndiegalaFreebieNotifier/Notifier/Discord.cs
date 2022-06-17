@@ -37,4 +37,7 @@ namespace IndiegalaFreebieNotifier.Notifier {
 							Description = record.ToDiscordMessage(),
 							Footer = new Footer() { Text = NotifyFormatStrings.projectLink }
 						}
-					)
+					);
+				}
+
+				var data = new StringConte
