@@ -41,4 +41,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				}
 
 				var data = new StringContent(JsonConvert.SerializeObject(content), Encoding.UTF8, "application/json");
-				v
+				var resp = await new HttpClient(
