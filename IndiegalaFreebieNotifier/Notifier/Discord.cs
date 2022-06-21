@@ -44,4 +44,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				var resp = await new HttpClient().PostAsync(url, data);
 				_logger.LogDebug(await resp.Content.ReadAsStringAsync());
 
-				_logger.LogDebug($"Done: {debugSendMessag
+				_logger.LogDebug($"Done: {debugSendMessage}");
+			} catch (Excepti
