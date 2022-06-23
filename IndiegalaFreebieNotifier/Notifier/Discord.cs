@@ -45,4 +45,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				_logger.LogDebug(await resp.Content.ReadAsStringAsync());
 
 				_logger.LogDebug($"Done: {debugSendMessage}");
-			} catch (Excepti
+			} catch (Exception) {
+				_logger.LogError(
