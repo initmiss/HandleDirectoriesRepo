@@ -7,4 +7,5 @@ using MailKit.Net.Smtp;
 using MimeKit;
 using IndiegalaFreebieNotifier.Model;
 
-namespace Indiegala
+namespace IndiegalaFreebieNotifier.Notifier {
+	clas
