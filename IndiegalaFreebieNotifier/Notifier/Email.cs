@@ -5,4 +5,6 @@ using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using MailKit.Net.Smtp;
 using MimeKit;
-using IndiegalaFreebieNotifi
+using IndiegalaFreebieNotifier.Model;
+
+namespace Indiegala
