@@ -8,4 +8,5 @@ using MimeKit;
 using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Notifier {
-	clas
+	class Email : INotifiable {
+		
