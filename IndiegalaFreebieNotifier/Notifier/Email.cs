@@ -9,4 +9,4 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Notifier {
 	class Email : INotifiable {
-		
+		private readonly ILogger<Emai
