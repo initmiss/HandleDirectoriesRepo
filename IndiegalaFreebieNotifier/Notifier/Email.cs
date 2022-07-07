@@ -12,4 +12,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		private readonly ILogger<Email> _logger;
 
 		#region debug strings
-		priv
+		private readonly string debugSendMes
