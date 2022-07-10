@@ -12,4 +12,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		private readonly ILogger<Email> _logger;
 
 		#region debug strings
-		private readonly string debugSendMes
+		private readonly string debugSendMessage = "Send notification to Emai
