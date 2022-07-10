@@ -13,4 +13,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 		#region debug strings
 		private readonly string debugSendMessage = "Send notification to Email";
-		private readonly string debugCreateMessage = "Cr
+		private readonly string debugCreateMessage = "Create notification message";
+		#
