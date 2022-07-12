@@ -16,4 +16,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		private readonly string debugCreateMessage = "Create notification message";
 		#endregion
 
-		public Email(ILo
+		public Email(ILogger<Email> logger) {
+			_log
