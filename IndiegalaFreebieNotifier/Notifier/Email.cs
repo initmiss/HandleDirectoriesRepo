@@ -17,4 +17,7 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		#endregion
 
 		public Email(ILogger<Email> logger) {
-			_log
+			_logger = logger;
+		}
+
+		private
