@@ -20,4 +20,6 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			_logger = logger;
 		}
 
-		private MimeMessage CreateMessage(List<FreeGameRecord> pushList, string fromAddress, string toAddress)
+		private MimeMessage CreateMessage(List<FreeGameRecord> pushList, string fromAddress, string toAddress) {
+			try {
+				_log
