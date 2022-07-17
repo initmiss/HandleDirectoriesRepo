@@ -22,4 +22,6 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 		private MimeMessage CreateMessage(List<FreeGameRecord> pushList, string fromAddress, string toAddress) {
 			try {
-				_logger.LogDebug(debugCreateM
+				_logger.LogDebug(debugCreateMessage);
+
+				var m
