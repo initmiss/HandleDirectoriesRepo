@@ -25,3 +25,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				_logger.LogDebug(debugCreateMessage);
 
 				var message = new MimeMessage();
+
+				message.From.Add(new Ma
