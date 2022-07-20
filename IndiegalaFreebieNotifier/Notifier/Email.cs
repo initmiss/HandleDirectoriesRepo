@@ -27,4 +27,6 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				var message = new MimeMessage();
 
 				message.From.Add(new MailboxAddress("SteamDB-FreeGames", fromAddress));
-				message.To.Add(new MailboxAddress("Receive
+				message.To.Add(new MailboxAddress("Receiver", toAddress));
+
+				var sb = ne
