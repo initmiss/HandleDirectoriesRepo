@@ -31,4 +31,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				var sb = new StringBuilder();
 
-				message.Su
+				message.Subject = sb.AppendFormat
