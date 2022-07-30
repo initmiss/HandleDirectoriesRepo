@@ -31,4 +31,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				var sb = new StringBuilder();
 
-				message.Subject = sb.AppendFormat(NotifyFormatStrings.emailTitleFormat, pushList.Count)
+				message.Subject = sb.AppendFormat(NotifyFormatStrings.emailTitleFormat, pushList.Count).ToString();
+				sb.
