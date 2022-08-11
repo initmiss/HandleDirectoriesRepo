@@ -40,4 +40,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					Text =sb.Append(NotifyFormatStrings.projectLinkHTML).ToString()
 				};
 
-				_logger.LogDebug($
+				_logger.LogDebug($"Done: {debugCreateMessage}");
