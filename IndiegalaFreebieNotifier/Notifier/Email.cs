@@ -38,4 +38,6 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				message.Body = new TextPart("html") {
 					Text =sb.Append(NotifyFormatStrings.projectLinkHTML).ToString()
-		
+				};
+
+				_logger.LogDebug($
