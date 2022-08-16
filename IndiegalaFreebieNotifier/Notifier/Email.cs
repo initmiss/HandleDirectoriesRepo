@@ -48,4 +48,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			}
 		}
 
-		public a
+		public async Task SendMessage(NotifyConfig co
