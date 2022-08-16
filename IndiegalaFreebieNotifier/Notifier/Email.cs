@@ -48,4 +48,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			}
 		}
 
-		public async Task SendMessage(NotifyConfig co
+		public async Task SendMessage(NotifyConfig config, List<FreeGameRecord> reco
