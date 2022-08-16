@@ -44,4 +44,8 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				return message;
 			} catch (Exception) {
 				_logger.LogError($"Error: {debugCreateMessage}");
-		
+				throw;
+			}
+		}
+
+		public a
