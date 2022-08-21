@@ -52,4 +52,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			try {
 				_logger.LogDebug(debugSendMessage);
 
-				var message = CreateMessage(records, config
+				var message = CreateMessage(records, config.FromEmailAddress, confi
