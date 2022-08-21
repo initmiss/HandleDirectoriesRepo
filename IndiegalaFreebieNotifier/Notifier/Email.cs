@@ -54,4 +54,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				var message = CreateMessage(records, config.FromEmailAddress, config.ToEmailAddress);
 
-				usi
+				using var client = new SmtpClient
