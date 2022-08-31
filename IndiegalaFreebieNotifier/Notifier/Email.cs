@@ -58,4 +58,6 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				client.Connect(config.SMTPServer, config.SMTPPort, true);
 				client.Authenticate(config.AuthAccount, config.AuthPassword);
 				await client.SendAsync(message);
-				client.Discon
+				client.Disconnect(true);
+
+				_logger.LogDebug(
