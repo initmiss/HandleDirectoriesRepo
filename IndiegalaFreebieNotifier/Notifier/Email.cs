@@ -56,4 +56,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				using var client = new SmtpClient();
 				client.Connect(config.SMTPServer, config.SMTPPort, true);
-				client.
+				client.Authenticate(config.AuthAccoun
