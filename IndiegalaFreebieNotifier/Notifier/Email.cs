@@ -60,4 +60,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				await client.SendAsync(message);
 				client.Disconnect(true);
 
-				_logger.LogDebug(
+				_logger.LogDebug($"Done: {debugSendMessage}");
+			
