@@ -70,4 +70,7 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		}
 
 		public void Dispose() {
-			GC.SuppressF
+			GC.SuppressFinalize(this);
+		}
+	}
+}
