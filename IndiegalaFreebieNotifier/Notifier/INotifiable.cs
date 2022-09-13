@@ -3,4 +3,4 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using IndiegalaFreebieNotifier.Model;
 
-namespace In
+namespace IndiegalaFreebieNotifier.Notifier {
