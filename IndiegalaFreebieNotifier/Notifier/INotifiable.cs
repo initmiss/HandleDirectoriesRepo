@@ -1,4 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using IndiegalaFre
+using IndiegalaFreebieNotifier.Model;
+
+namespace In
