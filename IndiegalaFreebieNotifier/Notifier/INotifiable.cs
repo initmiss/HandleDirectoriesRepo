@@ -5,4 +5,4 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Notifier {
 	interface INotifiable : IDisposable {
-		public
+		public Task SendMessage(NotifyC
