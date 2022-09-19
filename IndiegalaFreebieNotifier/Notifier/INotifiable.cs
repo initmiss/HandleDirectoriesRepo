@@ -5,4 +5,4 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Notifier {
 	interface INotifiable : IDisposable {
-		public Task SendMessage(NotifyC
+		public Task SendMessage(NotifyConfig config, List<FreeGameRecord> re
