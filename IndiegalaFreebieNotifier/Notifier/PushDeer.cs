@@ -5,4 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using HtmlAgilityPack;
-using IndiegalaFreebi
+using IndiegalaFreebieNotifier.Model;
+
+nam
