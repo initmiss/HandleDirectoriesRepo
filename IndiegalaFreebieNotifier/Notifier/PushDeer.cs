@@ -7,4 +7,4 @@ using Microsoft.Extensions.Logging;
 using HtmlAgilityPack;
 using IndiegalaFreebieNotifier.Model;
 
-nam
+namespace IndiegalaFreebieNotifier.
