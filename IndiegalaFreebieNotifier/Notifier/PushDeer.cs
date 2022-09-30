@@ -8,4 +8,5 @@ using HtmlAgilityPack;
 using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Notifier {
-	internal class PushDee
+	internal class PushDeer: INotifiable {
+		private
