@@ -7,4 +7,5 @@ using Microsoft.Extensions.Logging;
 using HtmlAgilityPack;
 using IndiegalaFreebieNotifier.Model;
 
-namespace IndiegalaFreebieNotifier.
+namespace IndiegalaFreebieNotifier.Notifier {
+	internal class PushDee
