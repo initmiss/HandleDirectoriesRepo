@@ -9,4 +9,4 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Notifier {
 	internal class PushDeer: INotifiable {
-		private
+		private readonly ILogger<PushDeer> _logg
