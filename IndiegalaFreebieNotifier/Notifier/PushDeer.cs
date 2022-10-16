@@ -12,4 +12,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		private readonly ILogger<PushDeer> _logger;
 
 		#region debug strings
-		private readonly string debugSendMessage = "
+		private readonly string debugSendMessage = "Send notification to Push
