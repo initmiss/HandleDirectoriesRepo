@@ -16,4 +16,7 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		#endregion
 
 		public PushDeer(ILogger<PushDeer> logger) {
-			_log
+			_logger = logger;
+		}
+
+		public async 
