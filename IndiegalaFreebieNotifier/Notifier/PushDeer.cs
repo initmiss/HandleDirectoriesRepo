@@ -15,4 +15,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		private readonly string debugSendMessage = "Send notification to PushDeer";
 		#endregion
 
-		public PushDeer(ILogg
+		public PushDeer(ILogger<PushDeer> logger) {
+			_log
