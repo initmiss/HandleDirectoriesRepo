@@ -23,4 +23,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			try {
 				_logger.LogDebug(debugSendMessage);
 				var webGet = new HtmlWeb();
-				
+				var resp = new HtmlDocum
