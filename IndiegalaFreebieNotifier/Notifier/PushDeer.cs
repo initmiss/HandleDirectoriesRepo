@@ -26,4 +26,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				var resp = new HtmlDocument();
 
 				foreach (var record in records) {
-					_logger.LogDebug($"{debugSen
+					_logger.LogDebug($"{debugSendMessage} : {record.Title}"
