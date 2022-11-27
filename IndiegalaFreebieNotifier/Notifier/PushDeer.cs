@@ -29,4 +29,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					_logger.LogDebug($"{debugSendMessage} : {record.Title}");
 					resp = await webGet.LoadFromWebAsync(
 						new StringBuilder()
-						.AppendFormat(
+						.AppendFormat(NotifyFormatStrings.pushDeerUrlFormat,
+		
