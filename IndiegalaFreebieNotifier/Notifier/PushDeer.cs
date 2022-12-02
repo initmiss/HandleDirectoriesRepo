@@ -31,4 +31,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 						new StringBuilder()
 						.AppendFormat(NotifyFormatStrings.pushDeerUrlFormat,
 									config.PushDeerToken,
-				
+									HttpUtility.UrlEncode(record.ToPu
