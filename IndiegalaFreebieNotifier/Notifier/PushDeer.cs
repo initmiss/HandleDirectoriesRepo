@@ -30,4 +30,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					resp = await webGet.LoadFromWebAsync(
 						new StringBuilder()
 						.AppendFormat(NotifyFormatStrings.pushDeerUrlFormat,
-		
+									config.PushDeerToken,
+				
