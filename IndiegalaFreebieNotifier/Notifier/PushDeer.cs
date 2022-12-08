@@ -33,4 +33,6 @@ namespace IndiegalaFreebieNotifier.Notifier {
 									config.PushDeerToken,
 									HttpUtility.UrlEncode(record.ToPushDeerMessage()))
 						.Append(HttpUtility.UrlEncode(NotifyFormatStrings.projectLink))
-						.ToS
+						.ToString()
+					);
+					_logger.LogDe
