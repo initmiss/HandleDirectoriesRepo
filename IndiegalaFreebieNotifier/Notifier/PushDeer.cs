@@ -35,4 +35,7 @@ namespace IndiegalaFreebieNotifier.Notifier {
 						.Append(HttpUtility.UrlEncode(NotifyFormatStrings.projectLink))
 						.ToString()
 					);
-					_logger.LogDe
+					_logger.LogDebug(resp.Text);
+				}
+
+				_logger.
