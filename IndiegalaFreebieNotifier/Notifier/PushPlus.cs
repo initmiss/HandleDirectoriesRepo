@@ -33,3 +33,27 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				_logger.LogDebug($"Done: {debugCreateMessage}");
 				return HttpUtility.UrlEncode(sb.ToString());
+			} catch (Exception) {
+				_logger.LogError($"Error: {debugCreateMessage}");
+				throw;
+			}
+		}
+
+		public async Task SendMessage(NotifyConfig config, List<FreeGameRecord> records) {
+			try {
+				_logger.LogDebug(debugSendMessage);
+
+				var title = HttpUtility.UrlEncode(new StringBuilder().AppendFormat(NotifyFormatStrings.pushPlusTitleFormat, records.Count).ToString());
+				var url = new StringBuilder().AppendFormat(NotifyFormatStrings.pushPlusUrlFormat, config.PushPlusToken, title);
+				var message = CreateMessage(records);
+
+				var resp = await new HtmlWeb().LoadFromWebAsync(
+					new StringBuilder()
+						.Append(url)
+						.Append(message)
+						.ToString()
+				);
+				_logger.LogDebug(resp.Text);
+
+				_logger.LogDebug($"Done: {debugSendMessage}");
+			} catch (Exception) {
