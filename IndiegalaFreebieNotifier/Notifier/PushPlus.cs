@@ -57,3 +57,15 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				_logger.LogDebug($"Done: {debugSendMessage}");
 			} catch (Exception) {
+				_logger.LogError($"Error: {debugSendMessage}");
+				throw;
+			} finally {
+				Dispose();
+			}
+		}
+
+		public void Dispose() {
+			GC.SuppressFinalize(this);
+		}
+	}
+}
