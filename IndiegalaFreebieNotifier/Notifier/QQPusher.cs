@@ -8,4 +8,5 @@ using HtmlAgilityPack;
 using Microsoft.Extensions.Logging;
 using IndiegalaFreebieNotifier.Model;
 
-namespace IndiegalaFreebi
+namespace IndiegalaFreebieNotifier.Notifier {
+	class QQPus
