@@ -10,4 +10,4 @@ using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Notifier {
 	class QQPusher: INotifiable {
-		pr
+		private readonly ILogger<QQPusher>
