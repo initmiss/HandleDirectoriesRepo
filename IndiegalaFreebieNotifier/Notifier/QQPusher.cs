@@ -9,4 +9,5 @@ using Microsoft.Extensions.Logging;
 using IndiegalaFreebieNotifier.Model;
 
 namespace IndiegalaFreebieNotifier.Notifier {
-	class QQPus
+	class QQPusher: INotifiable {
+		pr
