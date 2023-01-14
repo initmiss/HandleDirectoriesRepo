@@ -13,4 +13,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		private readonly ILogger<QQPusher> _logger;
 
 		#region debug strings
-		private readonly string
+		private readonly string debugSendMessage =
