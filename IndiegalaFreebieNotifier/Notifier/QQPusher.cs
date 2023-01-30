@@ -16,4 +16,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 		private readonly string debugSendMessage = "Send notifications to QQ";
 		#endregion
 
-		public QQPu
+		public QQPusher(ILogger<QQPusher> l
