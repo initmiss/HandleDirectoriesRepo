@@ -20,4 +20,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			_logger = logger;
 		}
 
-		public async Task SendMe
+		public async Task SendMessage(NotifyConfig config, Li
