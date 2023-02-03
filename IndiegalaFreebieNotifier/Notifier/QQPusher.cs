@@ -20,4 +20,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			_logger = logger;
 		}
 
-		pu
+		public async Task SendMe
