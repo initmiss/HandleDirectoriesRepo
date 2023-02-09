@@ -24,4 +24,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			try {
 				_logger.LogDebug(debugSendMessage);
 
-				string url =
+				string url = new StringBuilder().AppendFo
