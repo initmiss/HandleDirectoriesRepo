@@ -22,4 +22,6 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 		public async Task SendMessage(NotifyConfig config, List<FreeGameRecord> records) {
 			try {
-				_logger.LogDebug(debugSe
+				_logger.LogDebug(debugSendMessage);
+
+				string url =
