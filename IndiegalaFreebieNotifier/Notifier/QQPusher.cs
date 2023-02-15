@@ -24,4 +24,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 			try {
 				_logger.LogDebug(debugSendMessage);
 
-				string url = new StringBuilder().AppendFormat(NotifyFormatStrings.qqUrlFormat, config.QQAddress, config.QQPort, config.ToQQID).ToStr
+				string url = new StringBuilder().AppendFormat(NotifyFormatStrings.qqUrlFormat, config.QQAddress, config.QQPort, config.ToQQID).ToString();
+				var webGet = new HtmlWeb(
