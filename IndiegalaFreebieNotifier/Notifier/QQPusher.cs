@@ -28,4 +28,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				var webGet = new HtmlWeb();
 
 				foreach (var record in records) {
-					_logger.LogDebug(
+					_logger.LogDebug($"{debugSendMessage} : {record.Title
