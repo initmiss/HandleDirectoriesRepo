@@ -29,4 +29,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 
 				foreach (var record in records) {
 					_logger.LogDebug($"{debugSendMessage} : {record.Title}");
-					var res = awa
+					var res = await webGet.LoadFromWebAsync(
