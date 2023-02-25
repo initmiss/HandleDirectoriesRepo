@@ -31,4 +31,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					_logger.LogDebug($"{debugSendMessage} : {record.Title}");
 					var res = await webGet.LoadFromWebAsync(
 						new StringBuilder()
-			
+							.Append(url)
+							.Ap
