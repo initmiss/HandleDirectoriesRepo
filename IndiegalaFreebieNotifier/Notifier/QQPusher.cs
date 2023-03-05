@@ -32,4 +32,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					var res = await webGet.LoadFromWebAsync(
 						new StringBuilder()
 							.Append(url)
-							.Append(HttpUtility.UrlEncode(new StringBuilder().AppendFormat(NotifyFormatStrings.qqMessageFormat, record.ToQQMessage
+							.Append(HttpUtility.UrlEncode(new StringBuilder().AppendFormat(NotifyFormatStrings.qqMessageFormat, record.ToQQMessage()).ToString()))
+							.Append(
