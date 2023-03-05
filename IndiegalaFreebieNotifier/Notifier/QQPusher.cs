@@ -33,4 +33,5 @@ namespace IndiegalaFreebieNotifier.Notifier {
 						new StringBuilder()
 							.Append(url)
 							.Append(HttpUtility.UrlEncode(new StringBuilder().AppendFormat(NotifyFormatStrings.qqMessageFormat, record.ToQQMessage()).ToString()))
-							.Append(HttpUtility.UrlEncode(NotifyForma
+							.Append(HttpUtility.UrlEncode(NotifyFormatStrings.projectLink))
+	
