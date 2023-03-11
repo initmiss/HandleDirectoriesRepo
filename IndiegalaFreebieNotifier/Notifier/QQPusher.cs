@@ -38,4 +38,4 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					);
 				}
 
-	
+				_logger.LogDebug($"Done: {debu
