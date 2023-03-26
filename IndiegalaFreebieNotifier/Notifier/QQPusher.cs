@@ -44,4 +44,7 @@ namespace IndiegalaFreebieNotifier.Notifier {
 				throw;
 			} finally {
 				Dispose();
-		
+			}
+		}
+
+		public void Dispo
