@@ -28,3 +28,20 @@ namespace IndiegalaFreebieNotifier.Notifier {
 					_logger.LogDebug("Sending Message {0}", record.Title);
 					await BotClient.SendTextMessageAsync(
 						chatId: config.TelegramChatID,
+						text: $"{record.ToTelegramMessage()}{NotifyFormatStrings.projectLinkHTML.Replace("<br>", "\n")}",
+						parseMode: ParseMode.Html
+					);
+				}
+			} catch (Exception) {
+				_logger.LogError("Send notification failed.");
+				throw;
+			} finally {
+				Dispose();
+			}
+		}
+
+		public void Dispose() {
+			GC.SuppressFinalize(this);
+		}
+	}
+}
